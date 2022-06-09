@@ -1,0 +1,44 @@
+@font-face {
+    font-family: "table";
+    src: url("fonts/Ashyhouse_Regular.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+td {
+    border: solid 5px black;
+    display: table-cell;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-family: "table";
+    font-size: 2em;
+    border-radius: 15px;
+}
+
+body {
+    background-image: url(img/sheet.jpg);
+    background-position: bottom;
+    background-size: auto;
+    background-repeat: repeat;
+    margin: 0;
+
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.textPlayer{
+    text-align: center;
+    font-family: 'Concert One', cursive;
+    padding-bottom: 1em;
+}
+
+#title{
+    font-family: 'Concert One', cursive;
+}

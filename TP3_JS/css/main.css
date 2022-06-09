@@ -1,0 +1,86 @@
+@font-face {
+    font-family: "Screen";
+    src: url("../fonts/Calculator.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Pad";
+    src: url("../fonts/Gorga\ Grotesque\ Light.otf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    background-image: url(../img/background.jpg);
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+.container{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+table{
+    min-width: 50vh;
+    border-width:1px; 
+    border-style:solid; 
+    border-color:black;
+    width:20%;
+    margin: 10vh;
+    background-color: gray;
+}
+
+td{
+    border-width:1px; 
+    border-style:solid; 
+    border-color:black;
+    text-align: center;
+}
+
+th{
+    border-width:1px; 
+    border-style:solid; 
+    border-color:black;
+    height: 10vh;
+    width: 10vh;
+}
+
+#screen{
+    font-family: "Screen";
+    background-color: rgba(0, 255, 201, 0.3);
+}
+
+
+
+#calc{
+    min-width: 50vh;
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    font-family: "Pad";
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 15px;
+}
+
+.operator{
+    background-color: rosybrown;
+    font-weight: bold;
+}
+
+.numbers{
+    background-color: cadetblue;
+    font-weight: bold;
+}
+
+.res{
+    background-color: rgb(67, 241, 90);
+    font-weight: bold;
+}
